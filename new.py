@@ -12,7 +12,9 @@ for i in range(4):
 
 avg = total/4
 
-if avg >= 91:
+if avg >100:
+    print("Error!")
+elif avg >= 91:
     print("Your grade is A+")
 elif avg>=81:
     print("Your grade is A")
@@ -24,4 +26,5 @@ elif avg>=41:
     print("Your grade is D")
 elif avg<=40:
     print("Your grade is F")
+
 
