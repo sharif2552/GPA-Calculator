@@ -26,7 +26,7 @@ elif avg>=41:
     print("Your grade is D")
 elif avg<=40 and avg>=0:
     print("Your grade is F")
-elif avg<0:
+else:
     print("impossible")
 
 
